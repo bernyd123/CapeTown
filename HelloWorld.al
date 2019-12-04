@@ -6,6 +6,7 @@ pageextension 50100 CustomerListExt extends "Customer List"
 {
     trigger OnOpenPage();
     begin
+        Message('THis is a message on NEwBranch');
         Message('Demo this');
     end;
 }
